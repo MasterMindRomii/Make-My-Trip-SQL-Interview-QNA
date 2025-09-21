@@ -158,8 +158,8 @@ WHERE segment_rank = 1;
 ### **Step 1: Environment Setup**
 ```bash
 # Clone the repository
-git clone <your-repo-url>
-cd makemytrip-sql-interview
+git clone https://github.com/MasterMindRomii/Make-My-Trip-SQL-Interview-QNA
+cd Make-My-Trip-SQL-Interview-QNA
 
 # Set up your preferred SQL environment
 # MySQL, PostgreSQL, SQLite, or any cloud SQL service
