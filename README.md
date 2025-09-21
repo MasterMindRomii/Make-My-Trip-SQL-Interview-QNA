@@ -5,7 +5,7 @@
 
 ---
 
-## 🎯 What You'll Learn
+## → What You'll Learn
 
 - **Advanced SQL Techniques** → Window Functions, CTEs, Complex Joins
 - **Business Analytics** → Customer Segmentation, Booking Patterns, Revenue Analysis  
@@ -14,7 +14,7 @@
 
 ---
 
-## 📊 Dataset Overview
+## → Dataset Overview
 
 This project uses **two core tables** that simulate MakeMyTrip's booking system:
 
@@ -31,7 +31,7 @@ SELECT * FROM make_my_trip.booking_table LIMIT 5;
 
 ---
 
-## 💼 SQL Interview Questions
+## → SQL Interview Questions
 
 ### **Question 1: Segment Performance Analysis**
 **Business Problem:** *Which customer segments are most active in flight bookings during peak season?*
@@ -51,7 +51,7 @@ GROUP BY u.segment
 ORDER BY april_flight_users DESC;
 ```
 
-**💡 Business Insight:** Identifies high-value segments for targeted April flight marketing campaigns
+**→ Business Insight:** Identifies high-value segments for targeted April flight marketing campaigns
 
 ---
 
@@ -74,7 +74,7 @@ WHERE first_booking_rank = 1
 AND line_of_business = 'Hotel';
 ```
 
-**💡 Business Insight:** Hotel-first customers often have different lifetime values and booking behaviors
+**→ Business Insight:** Hotel-first customers often have different lifetime values and booking behaviors
 
 ---
 
@@ -93,7 +93,7 @@ WHERE user_id = 'u1'
 GROUP BY user_id;
 ```
 
-**💡 Business Insight:** Longer active periods indicate higher customer satisfaction and retention
+**→ Business Insight:** Longer active periods indicate higher customer satisfaction and retention
 
 ---
 
@@ -116,7 +116,7 @@ GROUP BY u.segment
 ORDER BY hotel_percentage DESC;
 ```
 
-**💡 Business Insight:** Helps optimize inventory allocation and cross-selling strategies
+**→ Business Insight:** Helps optimize inventory allocation and cross-selling strategies
 
 ---
 
@@ -149,11 +149,11 @@ FROM april_segment_analysis
 WHERE segment_rank = 1;
 ```
 
-**💡 Business Insight:** Early adopters in each segment can be valuable brand ambassadors
+**→ Business Insight:** Early adopters in each segment can be valuable brand ambassadors
 
 ---
 
-## 🚀 Getting Started
+## → Getting Started
 
 ### **Step 1: Environment Setup**
 ```bash
@@ -178,14 +178,14 @@ cd makemytrip-sql-interview
 
 ---
 
-## 🎯 Interview Tips
+## → Interview Tips
 
 **What Interviewers Look For:**
 
-✅ **Problem-Solving Approach** → How you break down complex business problems  
-✅ **SQL Best Practices** → Clean, readable, and efficient query structure  
-✅ **Business Acumen** → Understanding the "why" behind each analysis  
-✅ **Communication Skills** → Explaining your logic and findings clearly  
+→ **Problem-Solving Approach** | How you break down complex business problems  
+→ **SQL Best Practices** | Clean, readable, and efficient query structure  
+→ **Business Acumen** | Understanding the "why" behind each analysis  
+→ **Communication Skills** | Explaining your logic and findings clearly  
 
 **Common Follow-Up Questions:**
 - "How would you optimize this query for a million-row dataset?"
@@ -194,7 +194,7 @@ cd makemytrip-sql-interview
 
 ---
 
-## 📈 Business Impact
+## → Business Impact
 
 These SQL skills directly translate to real business value:
 
@@ -205,7 +205,7 @@ These SQL skills directly translate to real business value:
 
 ---
 
-## 🤝 Contributing
+## → Contributing
 
 **Ways to Contribute:**
 - **Add Questions** → Submit new SQL challenges from travel/e-commerce domains
@@ -221,16 +221,16 @@ These SQL skills directly translate to real business value:
 
 ---
 
-## 📬 Connect & Support
+## → Connect & Support
 
 **Found this helpful?**
-- ⭐ **Star this repository** to bookmark and support the project
-- 🔗 **Share with your network** to help others with SQL interview prep  
-- 💼 **Connect on LinkedIn** for more data analytics content and career tips
+- **Star this repository** → Bookmark and support the project
+- **Share with your network** → Help others with SQL interview prep  
+- **Connect on LinkedIn** → More data analytics content and career tips
 
 **Questions or Suggestions?**  
 Open an issue or reach out directly → Always happy to help fellow data enthusiasts!
 
 ---
 
-*This project is maintained with ❤️ for the data community. Happy querying!*
+*This project is maintained with care for the data community. Happy querying!*
