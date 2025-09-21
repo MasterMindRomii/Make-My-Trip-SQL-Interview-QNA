@@ -73,25 +73,7 @@ WHERE booking_date BETWEEN '2022-04-01' AND '2022-04-30'
 
 SELECT segment,booking_date, user_id,Total_Booking FROM CTE WHERE rn = 1;
 
-
 ✅ Insight: Identify the first booker per segment and measure their April activity.
-
-🎯 How Top 1% SQL Developers Showcase This
-
-🔥 They don’t just write queries — they tell a story.
-Here’s how you can use this project to impress recruiters and help other data aspirants:
-
-💡 Real-World Framing: Mention that this is inspired by a real travel-tech company (MakeMyTrip-like).
-
-📊 Business Relevance: Explain the why behind each query (customer engagement, marketing insights, retention analysis).
-
-📈 Visualization: Turn results into charts using Power BI or Tableau — show total users by segment, booking trends, etc.
-
-🗂️ Portfolio Placement: Add this project to GitHub and include the link on your LinkedIn and resume.
-
-📖 Teach Others: Write short explanations (as above) so beginners can follow your logic.
-
-🎥 Bonus: Record a 2-minute Loom/YouTube video walking through your code and insights — recruiters love this.
 
 👨‍💻 How to Use This Repository
 
@@ -115,8 +97,6 @@ This isn’t just about writing SQL — it’s about thinking like a data analys
 
 📈 How can this data guide business decisions?
 
-Answering these questions is exactly what recruiters want to see in a strong data candidate.
-
 ⭐ Connect & Contribute
 
 If you found this helpful:
@@ -126,15 +106,3 @@ If you found this helpful:
 🤝 Contribute by adding more queries
 
 🔗 Connect with me on LinkedIn
-
-
----
-
-✅ **This single README has everything:**  
-- The dataset info  
-- All SQL queries with explanations  
-- Insights for each query  
-- A section explaining how top 1% SQL developers use such projects to stand out  
-- Steps for recruiters & aspirants to explore  
-
-Would you like me to **add a small mock ERD diagram** (user_table ↔ booking_table) directly in the README to make it look visually professio
